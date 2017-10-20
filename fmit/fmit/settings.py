@@ -25,7 +25,7 @@ SECRET_KEY = 'wr=#_)u0@j*mcaf5-^llb118k2kpy7fsxw0lv=zq7n+&uf%0_r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.2']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -119,3 +119,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+MEDIA_ROOT='/mnt/Know The Daemon/python/Django/django/fmit/blog/'
+MEDIA_URL='/media/'
